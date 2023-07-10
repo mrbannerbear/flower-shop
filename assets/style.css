@@ -39,7 +39,7 @@ color: #272727}
 
         .secondary-title{
             font-size: 35px;
-            font-weight: 800;
+            font-weight: 600;
             padding-top: 82px;}
 
         .featured-flowers{display: flex; margin: 30px auto; width: 60%;
@@ -93,5 +93,10 @@ color: #272727}
         .bouquet-title{text-align: center; font-size: 30px;}
         .sec4-title{font-size: 40px; padding-top: 50px;}
         .bouquet-text-container{position: relative; bottom: 50px;}
+    
+    .sec5{text-align: center; height: 100vh;}
+        .insta-flowers{display: flex; margin: 30px auto; width: 60%; margin-top: 30px; 
+            align-items: center; gap: 30px; justify-content: space-evenly;}
+        .insta-pics{height: 250px; width: 220px;}
 
 /* main ends */
