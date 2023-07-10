@@ -72,11 +72,26 @@ color: #272727}
             .pink-flower-text{text-decoration: underline;}
 
     .sec2{height: 50vh;}
-
+    
         .icon-container{display: flex; justify-content: space-evenly;
         align-items: center; border-radius: 8px;
         background: rgba(39, 39, 39, 0.05); width: 66%; margin: auto;
         height: 200px; text-align: center; margin-top: 25vh;}
-            
+
+    .sec3{background: rgba(229, 84, 115, 0.10); height: 80vh;
+        text-align: center; display: flex; justify-content: center;
+        gap: 60px; align-items: center;}
+
+        .sec3-pic{width: 250px;
+        height: 320px;}
+        .off{color: #E55473;}
+        
+    
+    .sec4{text-align: center; height: 100vh; background-color:  rgba(229, 84, 115, 0.10);}
+
+        .bouquet{width: 480px; height: 85vh; margin-top: -80px;}
+        .bouquet-title{text-align: center; font-size: 30px;}
+        .sec4-title{font-size: 40px; padding-top: 50px;}
+        .bouquet-text-container{position: relative; bottom: 50px;}
 
 /* main ends */
