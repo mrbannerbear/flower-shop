@@ -5,7 +5,7 @@ color: #272727}
 
 /* header starts */
 
-header{background: rgba(229, 84, 115, 0.10); height: 85vh;}
+ header{background: rgba(229, 84, 115, 0.10); height: 85vh;}
 
    .banner{display: flex; justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ header{background: rgba(229, 84, 115, 0.10); height: 85vh;}
             font-size: 50px;
             font-weight: 800;}
 
-        .banner-p{ margin-top: 20px;
+        .para-text{ margin-top: 20px;
             font-size: 16px;
             font-weight: 400;
             line-height: 30px;}
@@ -25,9 +25,58 @@ header{background: rgba(229, 84, 115, 0.10); height: 85vh;}
             background: #E55473;
             padding: 16px 20px; color: white;
             margin-top: 16px;}
+        .btn:hover{color: #272727;}
 
         .banner-img{width: 355px;
             height: 470px;
             flex-shrink: 0;}
         
 /* header ends */
+
+/* main starts */
+
+    .sec1{text-align: center; height: 100vh;}
+
+        .secondary-title{
+            font-size: 35px;
+            font-weight: 800;
+            padding-top: 82px;}
+
+        .featured-flowers{display: flex; margin: 30px auto; width: 60%;
+        align-items:center; gap: 30px;;
+        justify-content: space-evenly;}
+
+        .featured{border-radius: 300px 300px 0px 0px;
+            width: 254px;
+            height: 338px;
+        flex-shrink: 0;}
+
+            .featured1{background: rgba(167, 33, 98, 0.15);}
+            .featured2{background: rgba(5, 151, 160, 0.15);}
+            .featured3{background: rgba(71, 125, 17, 0.15);}
+
+            .flower1{width: 80%;
+                padding-top: 68px;
+                height: 270px;
+                margin: auto;}
+            .flower2{width: 80%;
+                margin: auto;
+                height: 170px;
+                padding-top: 80px;
+            margin-bottom: 86px;}
+            .flower3{width: 80%;
+                padding-top: 68px;
+                height: 270px;
+                margin: auto;}
+
+            .pink-flower-text{text-decoration: underline;}
+
+    .sec2{height: 50vh;}
+
+        .icon-container{display: flex; justify-content: space-evenly;
+        align-items: center; border-radius: 8px;
+        background: rgba(39, 39, 39, 0.05); width: 66%; margin: auto;
+        height: 200px; text-align: center; margin-top: 25vh;}
+            
+
+/* main ends */
