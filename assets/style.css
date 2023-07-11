@@ -16,7 +16,7 @@ color: #272727}
             font-weight: 800;}
 
         .para-text{ margin-top: 20px;
-            font-size: 16px;
+            font-size: 13px;
             font-weight: 400;
             line-height: 30px;}
 
@@ -24,7 +24,7 @@ color: #272727}
             border: none;
             background: #E55473;
             padding: 16px 20px; color: white;
-            margin-top: 16px;}
+            margin-top: 16px; cursor: pointer;}
         .btn:hover{color: #272727;}
 
         .banner-img{width: 355px;
@@ -35,6 +35,8 @@ color: #272727}
 
 /* main starts */
 
+     /* section 1 starts */
+
     .sec1{text-align: center; height: 100vh;}
 
         .secondary-title{
@@ -42,14 +44,15 @@ color: #272727}
             font-weight: 600;
             padding-top: 82px;}
 
-        .featured-flowers{display: flex; margin: 30px auto; width: 60%;
-        align-items:center; gap: 30px;;
-        justify-content: space-evenly;}
+        .featured-flowers{display: flex;
+            margin: 30px auto; width: 60%;
+            align-items:center; gap: 30px;;
+            justify-content: space-evenly;}
 
         .featured{border-radius: 300px 300px 0px 0px;
-            width: 254px;
+            width: 248px;
             height: 338px;
-        flex-shrink: 0;}
+            flex-shrink: 0;}
 
             .featured1{background: rgba(167, 33, 98, 0.15);}
             .featured2{background: rgba(5, 151, 160, 0.15);}
@@ -69,22 +72,32 @@ color: #272727}
                 height: 270px;
                 margin: auto;}
 
-            .pink-flower-text{text-decoration: underline;}
+            .pink-flower-text{text-decoration: underline;
+            font-weight: 600;}
+
+    /* section 2 starts */
 
     .sec2{height: 50vh;}
     
-        .icon-container{display: flex; justify-content: space-evenly;
-        align-items: center; border-radius: 8px;
-        background: rgba(39, 39, 39, 0.05); width: 66%; margin: auto;
-        height: 200px; text-align: center; margin-top: 25vh;}
+        .icon-container{display: flex;
+            justify-content: space-evenly;
+            align-items: center; border-radius: 8px;
+            background: rgba(39, 39, 39, 0.05);
+            width: 66%; margin: auto;
+            height: 200px; text-align: center;
+            margin-top: 25vh;}
+
+    /* section 3 starts */
 
     .sec3{background: rgba(229, 84, 115, 0.10); height: 80vh;
         text-align: center; display: flex; justify-content: center;
         gap: 60px; align-items: center;}
 
         .sec3-pic{width: 250px;
-        height: 320px;}
-        .off{color: #E55473;}
+            height: 320px;}
+            .off{color: #E55473;}
+
+    /* section 4 starts */
         
     
     .sec4{text-align: center; height: 100vh; background-color:  rgba(229, 84, 115, 0.10);}
@@ -93,10 +106,47 @@ color: #272727}
         .bouquet-title{text-align: center; font-size: 30px;}
         .sec4-title{font-size: 40px; padding-top: 50px;}
         .bouquet-text-container{position: relative; bottom: 50px;}
+
+    /* section 5 starts */
     
     .sec5{text-align: center; height: 100vh;}
-        .insta-flowers{display: flex; margin: 30px auto; width: 60%; margin-top: 30px; 
-            align-items: center; gap: 30px; justify-content: space-evenly;}
-        .insta-pics{height: 250px; width: 220px;}
+
+        .insta-flowers{display: flex; margin: 30px auto;
+            width: 60%; margin-top: 30px; 
+            align-items: center; gap: 10px;
+            justify-content: space-evenly;}
+            .insta-pics{height: 223px;}
+
+    /* section 6 starts */
+
+    .sec6{height: 60vh;}
+
+        .latest-deals-banner{width: 66%; margin: 0 auto;
+            height: 53vh;
+            background-image: url(Rectangle\ 9.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative; bottom: 50px;
+            text-align: center;}
+            #email{padding: 16px 20px;
+                border-style: none;
+                width: 50%; margin: auto;
+                border-radius: 5px;}
+            .input{margin-top: px;}
+
 
 /* main ends */
+
+/* footer starts */
+
+ footer{height: 55vh; background-color: #272727; color: white; text-align: center;}
+   
+        .shop, .footer-text{color: white;}
+      
+        .copyright{color: rgba(255, 255, 255, 0.40);
+            text-align: center;
+            font-size: 11px;
+        margin-top: 30px;}
+
+/* footer ends */
